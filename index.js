@@ -4,8 +4,19 @@ const port= process.env.PORT || 5000
 const cors= require('cors')
 const courses=require('./Data/course-description.json')
 const catagories= require('./Data/catagories.json')
-
+const blogposts=require('./Data/blogPost.json')
 app.use(cors())
+
+
+app.get('/blog', (req, res) => {
+    res.send(blogposts)
+})
+
+app.get('/blog/:id', (req, res)=> {
+    const id= req.params.id
+    const singleBlogPost= blogposts.find (post=> post.id === id)
+    res.send(singleBlogPost)
+})
 
 app.get('/catagories', (req, res) => {
     res.send(catagories)

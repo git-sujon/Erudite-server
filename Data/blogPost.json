@@ -1,6 +1,44 @@
 [
     {
-        "id":"01",
-        "title":""
+      "id": "1",
+      "question": "what is `Cors'?",
+      "img": "https://nordicapis.com/wp-content/uploads/What-is-CORS-.png",
+      "cover_img":"https://miro.medium.com/max/1200/1*fFOeYqrSmQc5WCVqBazQKw.jpeg",
+      "CATEGORY": "Cors",
+      "ans_p_one": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a preflight request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.",
+      "ans_p_two": " For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts.For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers."
+      
+    },
+    
+    {
+      "id": "2",
+      "question": "Why are you using `firebase`? What other options do you have to implement authentication?",
+      "img": "https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2019/06/firebase11.jpg",
+      "cover_img":"https://www.iproov.com/wp-content/uploads/2021/09/best-authentication-methods-v3-ai-1.png",
+      "CATEGORY": "Firebase",
+      "ans_p_one": "Google Analytics for Firebase allows you to track your users' journey through realtime and custom reporting. As mentioned previously, Firebase supports IOS, Android, Web, and Unity products, allowing you to track your users across a wide range of devices. Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.",
+      "ans_p_two": " Authentication is used by a server when the server needs to know exactly who is accessing their information or site. Authentication is used by a client when the client needs to know that the server is system it claims to be. In authentication, the user or computer has to prove its identity to the server or client.Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints Authentication by a client usually involves the server giving a certificate to the client in which trusted third party such as Verisign or Thawte states that the server belongs to the entity (such as a bank) that the client expects it to.Authentication does not determine what tasks the individual can do or what files the individual can see. Authentication merely identifies and verifies who the person or system is."
+
+    },
+    {
+      "id": "3",
+      "question": " How does the private route work?",
+      "img": "https://i.ytimg.com/vi/y6S26FiwEy4/maxresdefault.jpg",
+      "cover_img":"https://res.cloudinary.com/practicaldev/image/fetch/s--IDcanLpC--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zw6ade965aztnwz1kur3.png",
+      "CATEGORY": "Private Route",
+      "ans_p_one": "PrivateRoute component is the blueprint for all private routes in the application. If the user is logged in, go on and display the component in question; otherwise, redirect the user to sign-in page. Additionally, we can define the logic of isLogin utility function separately in utils folder.",
+      "ans_p_two": " The private route component is similar to the public route, the only change is that redirect URL and authenticate condition.If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes If he is authenticated (Logged in)."
+
+    },
+    {
+      "id": "4",
+      "question": " What is Node? How does Node work?",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLB2vSo49nWLtLV8IQUzFIo6N3tpCN2gdOEBih5IwpxkHvMgc5CHCwsosCVQhJD-qyp4&usqp=CAU",
+      "cover_img":"https://www.simform.com/wp-content/uploads/2020/04/node.js-architecture.png",
+      "CATEGORY": "Node Js",
+      "ans_p_one": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.",
+      "ans_p_two": " Node.js accepts the request from the clients and sends the response, while working with the request node.js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads. Thread is a sequence of instructions that the server needs to perform. It runs parallel on the server to provide the information to multiple clients. Node.js is an event loop single-threaded language. It can handle concurrent requests with a single thread without blocking it for one request."
+
     }
-]
+    
+  ]
