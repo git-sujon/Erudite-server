@@ -1,0 +1,68 @@
+[
+    {
+      "id": "01",
+      "catagories_id": "webFront23763",
+      "Duration": 0,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Front-end  Development",
+      "articles":0
+        
+  
+    },
+    {
+      "id": "02",
+      "catagories_id": "webBack23763",
+      "Duration": 0,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Back-end  Development",
+      "articles":0
+        
+  
+    },
+    {
+      "id": "03",
+      "catagories_id": "blockChain23763",
+      "Duration": 8,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Blockchain development",
+      "articles":0
+        
+  
+    },
+    {
+      "id": "04",
+      "catagories_id": "networking23763",
+      "Duration": 8,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Networking technology",
+      "articles":0
+        
+  
+    },
+    {
+      "id": "05",
+      "catagories_id": "dataAnalytics23763",
+      "Duration": 8,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Data Science and Analytics",
+      "articles":0
+        
+  
+    },
+    {
+      "id": "06",
+      "catagories_id": "AiMachine23763",
+      "Duration": 8,
+      "students":0,
+      "Lectures": 0,
+      "Category_Name": "Ai And Machine Learning",
+      "articles":0
+        
+  
+    }
+]
