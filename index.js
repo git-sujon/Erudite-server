@@ -8,6 +8,7 @@ const blogposts=require('./Data/blogPost.json')
 app.use(cors())
 
 
+// route added
 app.get('/blog', (req, res) => {
     res.send(blogposts)
 })
