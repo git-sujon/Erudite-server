@@ -1,12 +1,12 @@
 [
     {
       "id": "1",
-      "question": "what is `Cors'?",
-      "img": "https://nordicapis.com/wp-content/uploads/What-is-CORS-.png",
-      "cover_img":"https://miro.medium.com/max/1200/1*fFOeYqrSmQc5WCVqBazQKw.jpeg",
-      "CATEGORY": "Cors",
-      "ans_p_one": "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a preflight request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.",
-      "ans_p_two": " For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts.For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers."
+      "question": "What is `CSS'?",
+      "img": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png",
+      "cover_img":"https://i.ytimg.com/vi/YD6W4FTq-Iw/maxresdefault.jpg",
+      "CATEGORY": "CSS",
+      "ans_p_one": "CSS is an abbreviation for Cascading Style Sheets. Style sheets are simply text files (.css ), composed of lines of code that tell browsers how to display an HTML page. They give the designer more control over the appearance of a webpage by allowing to specifically define styles for elements, such as fonts, on the page. By using CSS one could separate HTML content from its appearance, distinguishing style from structure.",
+      "ans_p_two": " For example, if you were writing a paper in a word program, you may have a title page, an outline page, and then the pages for the rest of your paper. For your title page, you set the text of your paper's title to be bold, Times New Roman, and have a font-size of 18pt. On your outline page, you set the text to be normal with a font-size of 12pt. In the rest of your paper, for all of the topic headings indicated in your outline, you set that text to be bold and have a font-size of 14pt. For the text in your paragraphs, you set them to be normal with a font size of 12pt. Within your paper, there are quotes that you want to indent and have in different fonts, etc."
       
     },
     
